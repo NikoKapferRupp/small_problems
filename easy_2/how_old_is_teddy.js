@@ -1,0 +1,1 @@
+console.log(`Teddy is ${Math.floor(Math.random() * (121 - 20) + 20)} years old! `);

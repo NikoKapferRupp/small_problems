@@ -9,7 +9,7 @@ function findFibonacciIndexByLength(num) {
         
     for(let index = 2n; fibonacciNum[index - 1n] < numDigit; index += 1n) {
         fibonacciNum.push(BigInt(fibonacciNum[index - 2n] + fibonacciNum[index - 1n]));
-    }
+    };
          
   
 
